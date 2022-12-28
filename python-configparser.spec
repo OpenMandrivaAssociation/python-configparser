@@ -35,5 +35,9 @@ export LANG=en_US.UTF-8
 %files
 %doc README.rst CHANGES.rst
 %license LICENSE
+%{python_sitelib}/__pycache__/configparser.cpython-*.pyc
 %{python_sitelib}/backports/configparser/
 #{python_sitelib}/configparser-%{version}-info
+%{python_sitelib}/configparser-*.dist-info
+%{python_sitelib}/configparser.py
+
