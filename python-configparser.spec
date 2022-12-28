@@ -8,6 +8,8 @@ URL:            http://docs.python.org/3/library/configparser.html
 Source:         https://files.pythonhosted.org/packages/source/c/configparser/configparser-%{version}.tar.gz
 #BuildRequires:  python3dist(backports)
 BuildRequires:  python3dist(setuptools)
+BuildRequires:  python3dist(wheel)
+BuildRequires:  python3dist(pip)
 BuildRequires:  pkgconfig(python)
 BuildRequires:  python-unittest2
 Requires:       python-backports
