@@ -36,4 +36,4 @@ export LANG=en_US.UTF-8
 %doc README.rst CHANGES.rst
 %license LICENSE
 %{python_sitelib}/backports/configparser/
-%{python_sitelib}/configparser-%{version}-py*.egg-info
+%{python_sitelib}/configparser-%{version}-info
