@@ -4,7 +4,7 @@ Release:        1
 Summary:        Backport of the enhanced config parser introduced in Python 3.x
 License:        MIT
 Group:          Development/Languages/Python
-URL:            http://docs.python.org/3/library/configparser.html
+URL:            https://docs.python.org/3/library/configparser.html
 Source:         https://files.pythonhosted.org/packages/source/c/configparser/configparser-%{version}.tar.gz
 #BuildRequires:  python3dist(backports)
 BuildRequires:  python3dist(setuptools)
